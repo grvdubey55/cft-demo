@@ -47,7 +47,10 @@
         },
         "DefaultArguments": {
           "--job-bookmark-option": "job-bookmark-enable",
-          "--extra-py-files" : "s3://aws-glue-scripts//testpyfiles"
+          "--extra-py-files": "s3://aws-glue-scripts//testpyfiles",
+          "--extra-jars": "s3://aws-glue-scripts//testpyfiles",
+          "--extra-files": "s3://aws-glue-scripts//testpyfiles",
+          "--TempDir": "s3://aws-glue-scripts//testpyfiles"
         },
         "ExecutionProperty": {
           "MaxConcurrentRuns": 2
