@@ -43,8 +43,7 @@
       "Properties": {
         "Command": {
           "Name": "glueetl",
-          "ScriptLocation": "s3://aws-glue-scripts//prod-job1",
-          "extra-py-files": "s3://aws-glue-scripts//testpyfiles"
+          "ScriptLocation": "s3://aws-glue-scripts//prod-job1"
         },
         "DefaultArguments": {
           "--job-bookmark-option": "job-bookmark-enable"
