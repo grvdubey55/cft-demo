@@ -3,7 +3,7 @@
     "Type" : "String",
     "Description" : "Glue Job Name"
   }
-}
+},
 
 {
   "Description": "AWS Glue Job Test2",
