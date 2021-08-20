@@ -56,7 +56,7 @@
           "MaxConcurrentRuns": 2
         },
         "MaxRetries": 0,
-        "Name": "cf-job2",
+        "Name": "$GlueJobName",
         "Role": {
           "Ref": "MyJobRole"
         }
