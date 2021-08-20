@@ -1,5 +1,5 @@
 {
-  "Description": "AWS Glue Job Test",
+  "Description": "AWS Glue Job Test2",
   "Resources": {
     "MyJobRole": {
       "Type": "AWS::IAM::Role",
