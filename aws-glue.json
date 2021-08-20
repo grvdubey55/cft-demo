@@ -46,13 +46,14 @@
           "ScriptLocation": "s3://aws-glue-scripts//prod-job1"
         },
         "DefaultArguments": {
-          "--job-bookmark-option": "job-bookmark-enable"
+          "--job-bookmark-option": "job-bookmark-enable",
+          "--extra-py-files" : "s3://aws-glue-scripts//testpyfiles"
         },
         "ExecutionProperty": {
           "MaxConcurrentRuns": 2
         },
         "MaxRetries": 0,
-        "Name": "cf-job1",
+        "Name": "cf-job2",
         "Role": {
           "Ref": "MyJobRole"
         }
