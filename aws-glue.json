@@ -63,7 +63,7 @@
           "MaxConcurrentRuns": 2
         },
         "MaxRetries": 0,
-        "Name": { "Ref" : "InstanceTypeParameter" },
+        "Name": { "Ref" : "Name" },
         "Role": {
           "Ref": "MyJobRole"
         }
