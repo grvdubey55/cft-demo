@@ -1,11 +1,10 @@
-"Parameters" : {
-  "Name" : {
-    "Type" : "String",
-    "Description" : "Glue Job Name"
-  }
-},
-
 {
+  "Parameters": {
+    "GlueJobName": {
+        "Description": "Glue Job name",
+        "Type": "String"
+    }
+},
   "Description": "AWS Glue Job Test2",
   "Resources": {
     "MyJobRole": {
@@ -63,7 +62,7 @@
           "MaxConcurrentRuns": 2
         },
         "MaxRetries": 0,
-        "Name": { "Ref" : "Name" },
+        "Name": { "Ref" : "GlueJobName" },
         "Role": {
           "Ref": "MyJobRole"
         }
