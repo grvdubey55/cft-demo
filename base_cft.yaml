@@ -49,3 +49,5 @@ Resources:
         Ref: Name
       Role:
         Ref: MyJobRole
+      GlueVersion:
+        Ref: GlueVersion
