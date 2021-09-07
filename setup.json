@@ -45,7 +45,7 @@
     },
     {
         "ParameterKey":"Connections",
-        "ParameterValue":"glue-test-job"
+        "ParameterValue":""
     },
     {
         "ParameterKey":"MaximumCapacity",
@@ -56,19 +56,11 @@
         "ParameterValue":"G.1X"
     },
     {
-        "ParameterKey":"Number of workers",
+        "ParameterKey":"NumberOfWorkers",
         "ParameterValue":"2"
     },
     {
-        "ParameterKey":"Job timeout (minutes)",
+        "ParameterKey":"JobTimeout",
         "ParameterValue":"100"
-    },
-    {
-        "ParameterKey":"Delay notification threshold (minutes)",
-        "ParameterValue":"glue-test-job"
-    },
-    {
-        "ParameterKey":"Tags",
-        "ParameterValue":"glue-test-job"
     }
 ]
