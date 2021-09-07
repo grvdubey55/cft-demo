@@ -1,11 +1,11 @@
 {
-  "Parameters": {
+    "Parameters": {
     "GlueJobName": {
         "Description": "Glue Job name",
         "Type": "String"
     }
 },
-  "Description": "AWS Glue Job Test2",
+   "Description": "AWS Glue Job Test2",
   "Resources": {
     "MyJobRole": {
       "Type": "AWS::IAM::Role",
