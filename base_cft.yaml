@@ -4,6 +4,8 @@ Parameters:
     Type: String
   Scriptlocation:
     Type: String
+  GlueVersion:
+    Type: String
 Description: AWS Glue Job Test2
 Resources:
   MyJobRole:
