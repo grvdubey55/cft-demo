@@ -68,7 +68,7 @@ Resources:
         "--extra-jars": s3://aws-glue-scripts//testpyfiles
         "--extra-files": s3://aws-glue-scripts//testpyfiles
         "--TempDir": s3://aws-glue-scripts//testpyfiles
-        "--additional-python-modules:" Ref: additionalPythonModules
+        "--additional-python-modules": Ref: additionalPythonModules
       ExecutionProperty:
         MaxConcurrentRuns: 2
       MaxRetries: 0
