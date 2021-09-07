@@ -1,7 +1,78 @@
 [
     {
-        "ParameterKey":"GlueJobName",
+        "ParameterKey":"Name",
+        "ParameterValue":"glue-test-job"
+    },
+    {
+        "ParameterKey":"IAM role",
+        "ParameterValue":"AWSGlueServiceRole-elasticsearch"
+    },
+    {
+        "ParameterKey":"Type",
+        "ParameterValue":"Spark"
+    },
+    {
+        "ParameterKey":"Glue version",
+        "ParameterValue":"2.0"
+    },
+    {
+        "ParameterKey":"Python version",
+        "ParameterValue":"3"
+    },
+    {
+        "ParameterKey":"ETL language",
+        "ParameterValue":"python"
+    },
+    {
+        "ParameterKey":"Script location",
+        "ParameterValue":"s3://aws-glue-scripts//prod-job1"
+    },
+    {
+        "ParameterKey":"Temporary directory",
+        "ParameterValue":"s3://aws-glue-scripts//prod-job1"
+    },
+    {
+        "ParameterKey":"Python lib path",
+        "ParameterValue":""
+    },	
+    {
+        "ParameterKey":"Jar lib path",
+        "ParameterValue":""
+    },
+    {
+        "ParameterKey":"Job parameters",
+        "ParameterValue":""
+    },
+    {
+        "ParameterKey":"--additional-python-modules",
+        "ParameterValue":"openpyxl==3.0.0"
+    },
+    {
+        "ParameterKey":"Connections",
+        "ParameterValue":"glue-test-job"
+    },
+    {
+        "ParameterKey":"Maximum capacity",
+        "ParameterValue":"2"
+    },
+    {
+        "ParameterKey":"Worker type",
+        "ParameterValue":"G.1X"
+    },
+    {
+        "ParameterKey":"Number of workers",
+        "ParameterValue":"2"
+    },
+    {
+        "ParameterKey":"Job timeout (minutes)",
+        "ParameterValue":"100"
+    },
+    {
+        "ParameterKey":"Delay notification threshold (minutes)",
+        "ParameterValue":"glue-test-job"
+    },
+    {
+        "ParameterKey":"Tags",
         "ParameterValue":"glue-test-job"
     }
-
 ]
