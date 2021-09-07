@@ -1,6 +1,8 @@
 Parameters:
-  GlueJobName:
+  Name:
     Description: Glue Job name
+    Type: String
+  Script location:
     Type: String
 Description: AWS Glue Job Test2
 Resources:
@@ -30,7 +32,8 @@ Resources:
     Properties:
       Command:
         Name: glueetl
-        ScriptLocation: s3://aws-glue-scripts//prod-job1
+        ScriptLocation:
+          Ref: Script location  
       DefaultArguments:
         "--job-bookmark-option": job-bookmark-enable
         "--extra-py-files": s3://aws-glue-scripts//testpyfiles
@@ -41,6 +44,6 @@ Resources:
         MaxConcurrentRuns: 2
       MaxRetries: 0
       Name:
-        Ref: GlueJobName
+        Ref: Name
       Role:
         Ref: MyJobRole
