@@ -1,6 +1,2 @@
-"Parameters" : {
-  "GlueJobName" : {
-   "Type" : "String",
-   "Default" : "glue-test-job"
-   }
- }
+ParameterKey: GlueJobName
+ParameterValue: glue-test-job
