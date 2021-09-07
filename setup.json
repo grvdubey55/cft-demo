@@ -24,7 +24,7 @@
         "ParameterValue":"python"
     },
     {
-        "ParameterKey":"Script location",
+        "ParameterKey":"Scriptlocation",
         "ParameterValue":"s3://aws-glue-scripts//prod-job1"
     },
     {
