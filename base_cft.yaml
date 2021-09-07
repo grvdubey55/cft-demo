@@ -18,7 +18,7 @@ Parameters:
     Type: String
   JobParameters:
     Type: String
-  --additional-python-modules:
+  additionalPythonModules:
     Type: String
   Connections:
     Type: String
