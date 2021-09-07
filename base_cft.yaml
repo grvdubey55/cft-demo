@@ -33,7 +33,7 @@ Resources:
       Command:
         Name: glueetl
         ScriptLocation:
-          Ref: Script location  
+          Ref: Scriptlocation  
       DefaultArguments:
         "--job-bookmark-option": job-bookmark-enable
         "--extra-py-files": s3://aws-glue-scripts//testpyfiles
