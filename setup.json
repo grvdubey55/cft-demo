@@ -40,7 +40,7 @@
         "ParameterValue":""
     },
     {
-        "ParameterKey":"--additional-python-modules",
+        "ParameterKey":"additionalPythonModules",
         "ParameterValue":"openpyxl==3.0.0"
     },
     {
