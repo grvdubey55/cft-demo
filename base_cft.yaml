@@ -2,6 +2,8 @@ Parameters:
   Name:
     Description: Glue Job name
     Type: String
+  Type:
+    Type: String
   Scriptlocation:
     Type: String
   GlueVersion:
