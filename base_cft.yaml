@@ -6,6 +6,30 @@ Parameters:
     Type: String
   GlueVersion:
     Type: String
+  PythonVersion:
+    Type: String
+  ETLlanguage:
+    Type: String
+  TemporaryDirectory:
+    Type: String
+  PythonLibPath:
+    Type: String
+  JarLibPath:
+    Type: String
+  JobParameters:
+    Type: String
+  --additional-python-modules:
+    Type: String
+  Connections:
+    Type: String
+  MaximumCapacity:
+    Type: String
+  WorkerType:
+    Type: String
+  NumberOfWorkers:
+    Type: String
+  JobTimeout:
+    Type: String
 Description: AWS Glue Job Test2
 Resources:
   MyJobRole:
