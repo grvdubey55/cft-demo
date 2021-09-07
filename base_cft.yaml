@@ -2,7 +2,7 @@ Parameters:
   Name:
     Description: Glue Job name
     Type: String
-  Script location:
+  Scriptlocation:
     Type: String
 Description: AWS Glue Job Test2
 Resources:
