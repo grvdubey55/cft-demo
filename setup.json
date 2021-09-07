@@ -4,23 +4,19 @@
         "ParameterValue":"glue-test-job"
     },
     {
-        "ParameterKey":"IAM role",
-        "ParameterValue":"AWSGlueServiceRole-elasticsearch"
-    },
-    {
         "ParameterKey":"Type",
         "ParameterValue":"Spark"
     },
     {
-        "ParameterKey":"Glue version",
+        "ParameterKey":"GlueVersion",
         "ParameterValue":"2.0"
     },
     {
-        "ParameterKey":"Python version",
+        "ParameterKey":"PythonVersion",
         "ParameterValue":"3"
     },
     {
-        "ParameterKey":"ETL language",
+        "ParameterKey":"ETLlanguage",
         "ParameterValue":"python"
     },
     {
@@ -28,19 +24,19 @@
         "ParameterValue":"s3://aws-glue-scripts//prod-job1"
     },
     {
-        "ParameterKey":"Temporary directory",
+        "ParameterKey":"TemporaryDirectory",
         "ParameterValue":"s3://aws-glue-scripts//prod-job1"
     },
     {
-        "ParameterKey":"Python lib path",
+        "ParameterKey":"PythonLibPath",
         "ParameterValue":""
     },	
     {
-        "ParameterKey":"Jar lib path",
+        "ParameterKey":"JarLibPath",
         "ParameterValue":""
     },
     {
-        "ParameterKey":"Job parameters",
+        "ParameterKey":"JobParameters",
         "ParameterValue":""
     },
     {
@@ -52,11 +48,11 @@
         "ParameterValue":"glue-test-job"
     },
     {
-        "ParameterKey":"Maximum capacity",
+        "ParameterKey":"MaximumCapacity",
         "ParameterValue":"2"
     },
     {
-        "ParameterKey":"Worker type",
+        "ParameterKey":"WorkerType",
         "ParameterValue":"G.1X"
     },
     {
