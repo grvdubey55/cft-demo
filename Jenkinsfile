@@ -7,9 +7,9 @@ pipeline {
                 value = sh (
                 script: 'jq \'.[0] | .ParameterValue\' setup.json',
                  returnStdout: true
-                 )
+                 ).trim()
                 }
-            sh "aws cloudformation create-stack --template-body file://base_cft.yaml --parameters file://setup.json --capabilities CAPABILITY_NAMED_IAM --region us-east-1 --stack-name $value"
+            sh "aws cloudformation create-stack --stack-name $value --template-body file://base_cft.yaml --parameters file://setup.json --capabilities CAPABILITY_NAMED_IAM --region us-east-1"
               }
              }
             }
